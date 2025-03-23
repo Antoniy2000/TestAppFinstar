@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAppFinstar.API", "TestAppFinstar.API\TestAppFinstar.API.csproj", "{6A139E6F-D312-40DA-A46A-689CF0D5B5FC}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAppFinstar.Models", "TestAppFinstar.Models\TestAppFinstar.Models.csproj", "{5A0E3521-D137-4077-AA24-1B92670D1255}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAppFinstar.Data", "TestAppFinstar.Data\TestAppFinstar.Data.csproj", "{2D1B1F88-1359-41E9-801C-EC03BF9CF063}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "testappfinstar.web", "TestAppFinstar.Web\testappfinstar.web.esproj", "{29A7D37C-4820-22B1-8C0E-1C026A4DF97D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,8 +35,17 @@ Global
 		{2D1B1F88-1359-41E9-801C-EC03BF9CF063}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D1B1F88-1359-41E9-801C-EC03BF9CF063}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D1B1F88-1359-41E9-801C-EC03BF9CF063}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29A7D37C-4820-22B1-8C0E-1C026A4DF97D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29A7D37C-4820-22B1-8C0E-1C026A4DF97D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29A7D37C-4820-22B1-8C0E-1C026A4DF97D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{29A7D37C-4820-22B1-8C0E-1C026A4DF97D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29A7D37C-4820-22B1-8C0E-1C026A4DF97D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29A7D37C-4820-22B1-8C0E-1C026A4DF97D}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {699A13EC-C50A-4395-91BD-A4291540552A}
 	EndGlobalSection
 EndGlobal
